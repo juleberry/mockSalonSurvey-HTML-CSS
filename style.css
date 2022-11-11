@@ -1,0 +1,118 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
+
+.main {
+  font-family: Tahoma;
+  text-align: center;
+  background-color: #DAF7A6;
+  background: url("https://live.staticflickr.com/65535/52031268920_0a0ca32394_h.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+header {
+  color: white;
+  width: 75%;
+  padding: 15px;
+  margin: auto;
+}
+
+#zen-logo {
+  border-radius: 50%;
+  opacity: 100%;
+}
+
+h1 {
+  font-family: Tahoma;
+}
+
+#entire-form {
+  background: mediumaquamarine;
+  border-radius: 20px;
+  opacity: 80%;
+  font-weight: bold;
+  width: 550px;
+  height: auto;
+  padding: 25px;
+  margin: auto;
+  text-align: left;
+}
+
+#salon-name {
+  font-family: Tahoma;
+}
+
+label {
+  padding: 5px;
+  font-weight: bold;
+}
+
+#form-q {
+  font-weight: bold;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Tahoma;
+}
+
+select {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  background: orchid;
+  font-weight: bold;
+}
+
+select:hover {
+  accent-color: darkorchid;
+}
+
+p {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+textarea {
+  margin: 10px;
+  padding: 10px;
+}
+
+button {
+  background: pink;
+  font-weight: bold;
+  font-family: Tahoma;
+  width: 100px;
+  height: 35px;
+}
+
+button:hover {
+  background: orchid;
+}
+
+footer {
+  background-color: darkGray;
+  color: white;
+  font-family: Tahoma;
+  font-size: 12px;
+  height: 15px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}

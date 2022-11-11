@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mock Salon Satisfaction Survey created by Jule Berry for freeCodeCamp Responsive Web Design certificate</title>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+</head>
+<body>
+  <div class="container">
+    <div class="main">
+    <header>
+      <img src="https://live.staticflickr.com/65535/52032066296_24bbf5068f.jpg" width="25%" height="25%" alt="Zen-salon-logo" id="zen-logo">
+    <h1 id="title"><span id="salon-name">Client Satisfaction Survey</span></h1>
+    <p id="description">The staff at Zen Salon truly values the feedback of clientele.<br>Thank you for taking the time to fill out this survey to help us improve our salon!</p>
+    </header>
+    <div id="entire-form">
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+        <input type="text" placeholder="First & Last Name" id="name" required>
+          <br>
+          <label for="email" id="email-label">Email Address:</label>
+            <input type="email" placeholder="Email Address" id="email" required>
+      <br>
+            <label for="date" id="date-label">Date of Visit:</label>
+              <input type="date" placeholder="Date">
+              <br>
+              <label for="spend" id="number-label">Purchase Amount (estimate):</label>
+              <input type="number" placeholder="$" id="number" min="0" max="2000">
+              <br>
+              <label for="services-label">Service(s) Received:</label>
+                <input type="checkbox" id="services" name="services" value="mani-pedi">
+                Manicure/Pedicure
+                <input type="checkbox" id="services" name="services" value="massage">Massage
+                <input type="checkbox" id="services" name="services" value="wax">Waxing
+                <br>
+                <label for="technician-label">
+                  Who was your technician?</label>
+                  <select id="dropdown" name="Technician" required>
+                    <option value="" disabled selected>Select Technician</option>
+                    <option value="Cindy" name="Technician">Cindy</option>
+                    <option value="Sue" name="Technician">Sue</option>
+                    <option value="David" name="Technician">David</option>
+                    <option value="Laura" name="Technician">Laura</option>
+                    <option value="Unknown" name="Technician">I'm not sure/NA</option>
+                    </select>
+                  <br>
+      <hr>
+      <br>
+      <span id="form-q">Please answer the following:</span>
+                  <br>
+                  <label for="greeting" required>
+                    You were greeted upon entering the salon:</label>
+      <input type="radio" name="greeting" id="greeting" value="Yes">Yes
+                    <input type="radio" id="greeting" name="greeting" value="No">No
+                    <br>
+                    <label for="cleanliness-label" required>
+                      Salon was clean:</label> <input type="radio" id="cleanliness" name="cleanliness" value="Yes">Yes
+                      <input type="radio" id="cleanliness" name="cleanliness" value="No">No
+                      <br>
+                      <label for="knowledge-label" required>Technician was knowledgable:</label> <input type="radio" id="knowledge" name="knowledge" value="Yes">Yes
+                        <input type="radio" id="knowledge" name="knowledge" value="No">No
+                        <input type="radio" name="knowledge" id="knowledge" value="N/A">N/A
+  <br>    
+                        <label for="rec-label" required>
+                          Technician recommended at-home care:</label> <input type="radio" id="recommendations" name="rec" value="Yes">Yes
+                          <input type="radio" name="rec" id="recommendations" value="No">No
+                          <input type="radio" name="rec" id="recommendations" value="N/A">N/A
+                          <br>
+                          <label for="satisfaction-label" required>
+                            Value of service(s) received:</label> <input type="radio" name="csat" id="satisfaction" value="excellent">Excellent!
+                            <input type="radio" name="csat" id="satisfaction" value="good">Good
+                            <input type="radio" name="csat" id="satisfaction" value="needs-work">Needs Work
+                            <br>
+                            <label for="ref-label" required>
+                              Would you refer us to your friends?</label><input type="radio" name="ref" id="referral" value="Yes">Yes
+                              <input type="radio" name="ref" id="referral" value="No">No
+                              <input type="radio" name="ref" id="referral" value="undec">Undecided
+                              <label for="fb-label">
+                                <br>
+                                <label for="feedback" name="feedback" id="feedback">Please share any additional feedback below:</label>
+  <br>
+                                <textarea name="feedback" cols="30" rows="15" placeholder="Did something great happen during your service? Is there something we can improve? Either way, we appreciate your feedback!"></textarea>
+                                <br>
+                                <button type="submit" id="submit">Submit</button>
+    </form>
+      </div>
+      <footer><em>Pen created by Jule Berry towards completion of Responsive Web Design from FreeCodeCamp.org, 2022.</em></footer>
+          </div>
+  </div>
+</body>
+</html>
